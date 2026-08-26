@@ -6,4 +6,8 @@ public class Main {
         System.out.println("Container is up. Sleeping so you can inspect it.");
         Thread.sleep(600_000);
     }
+
+    public static void greet() {
+        System.out.println("Greetings from the team's Sprint 1 project skeleton");
+    }
 }
